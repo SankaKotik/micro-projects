@@ -1,5 +1,11 @@
 import os
 
+# download many MP3's in the correct sequence,
+# generate mylist.txt and losslessly concatenate
+# to an one big MP3 mix!
+
+# You must have installed wget and ffmpeg on your PC!
+
 mylist_text = ''
 with open ('list.txt') as file:
     for num, line in enumerate (file, start=1):
